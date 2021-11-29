@@ -1,0 +1,32 @@
+
+
+git checkout <commit-hash> 
+để xem lại code  dựa theo <commit-hash> ,có thể chỉnh sửa code rồi commit  lại nhưng
+nếu muốn sửa code thì nên tạo 1 branch mới best practice
+
+git checkout HEAD <file> <multiplefile>  or git checkout -- <file> <multiplefile> 
+để quay lại trạng thái commit cuối cùng , nếu ko muốn giữ lại đoạn code mới thêm vào (đã modified nhưng chưa add và commit)
+
+
+new syntax
+
+git restore <file>  tương tự git checkout HEAD <file> <multiplefile>
+
+git restore --source HEAD~1 <file> 
+để quay lại commit ở vị trí HEAD~(number) , nếu ko muốn giữ lại đoạn code mới thêm vào (đã modified nhưng chưa add và commit)
+có thể add file rồi commit lại hoặc tạo branch mới hoặc có thể quay lại commit cuối = git restore <file> , nhưng đoạn code đã viết bị mất 
+
+
+git restore --staged <file> 
+nếu lỡ add file nhưng chưa commit , muốn bỏ file  đó thì sử dụng lệnh trên
+
+
+
+git reset --hard <commit-hash>
+phải chú ý khi sử dụng vì sẽ xóa tất cả commit phía trước <commit-hash>
+nếu vẫn muốn giữ lại những commit muốn xóa . có thể tách ra 1 branch mới 
+bằng git reset <commit-hash> ~~> khó hiểu thì coi lại video , hehe
+
+
+
+

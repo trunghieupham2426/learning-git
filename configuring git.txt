@@ -1,0 +1,33 @@
+git config --global user.name "trunghieu2426"
+git config user.name ~~> check lai ten
+
+git config --global user.email "phamtrunghieu.dn2426@gmail.com"
+git config user.email
+
+git init ~~> 
+
+
+git status ~~> nen check status truoc khi git init
+
+
+
+
+
+
+git add filename
+
+git commit -m "message"
+
+
+
+git checkout -- filename ~~> de quay ve commit phia truoc neu ko muon commit hien tai
+
+git restore --source HEAD~3 filename ...
+
+git restore --staged filename ~~> de loai bo  addfile
+
+
+git reset commit-hash
+
+git reset --hard commit-hash ~~> phai can than  cai khi dung cai'  nay`. commit phia truoc  se mat
+

@@ -1,0 +1,22 @@
+start .
+ls
+
+ls foldername ~~> xem ben trong folder co' gi`
+
+pwd 
+
+cd .. ~~> de lui` lai 1 folder truoc do'
+
+
+
+touch  filename1 filename2  tao file
+vd touch testgit.js
+
+ 
+mkdir foldername  ~~> 	tao folder
+
+rm filename   xoa file
+rm -rf foldername xoa' folder
+
+
+

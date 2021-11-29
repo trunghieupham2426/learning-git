@@ -1,0 +1,5 @@
+git remote add <remotename> <url>
+
+git remote rename <old> <new>
+git remote remove <name>
+
